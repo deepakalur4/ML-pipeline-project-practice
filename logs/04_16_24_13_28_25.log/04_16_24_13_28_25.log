@@ -1,0 +1,6 @@
+INFO:root:Data ingestion started
+INFO:root:Data loaded as Dataframe
+INFO:root:train test split started
+INFO:root:Data transformation_started
+INFO:root:creation of a preprocessor obejct started
+INFO:root:Model_training_started

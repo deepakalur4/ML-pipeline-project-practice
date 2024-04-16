@@ -7,6 +7,8 @@ from src.exception import CustomException
 from sklearn.model_selection import train_test_split
 import sys
 from data_transformation import *
+from mode_trainer import * 
+
 
 @dataclass
 class data_inegestionconfig:
@@ -48,3 +50,5 @@ if __name__=="__main__":
     train_deta,test_deta=data_ingestion_object.initiate_data_ingestion()
     data_transformation_obj=data_transformation()
     train_arr,test_arr,_=data_transformation_obj.initiate_data_transformation(train_deta,test_deta)
+    model_trainer_obj=model_trainer()
+    model_trainer_obj.initiate_model_training(train_arr,test_arr)
