@@ -1,0 +1,4 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 280-323-111
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 14:07:24] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 14:07:46] "POST /predict HTTP/1.1" 200 -
