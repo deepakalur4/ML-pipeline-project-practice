@@ -3,4 +3,4 @@ pandas
 numpy
 setuptools
 scikit-learn
-# -e .
+-e .
