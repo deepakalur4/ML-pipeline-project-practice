@@ -1,0 +1,3 @@
+INFO:root:Data ingestion started
+INFO:root:Data loaded as Dataframe
+INFO:root:train test split started
